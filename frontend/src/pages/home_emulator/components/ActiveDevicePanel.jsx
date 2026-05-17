@@ -2,7 +2,7 @@ import React from "react";
 
 import LightEmulator from "../LightEmulator";
 import DoorEmulator from "../DoorEmulator";
-import TVEmulator from "../TVEmulator";
+import TVEmulator from "../TvEmulator";
 import SpeakerEmulator from "../SpeakerEmulator";
 
 export default function ActiveDevicePanel({

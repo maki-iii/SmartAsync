@@ -1,0 +1,24 @@
+{
+  "open_palm": { "device": "light", "action": "turn_on" },
+  "closed_fist": { "device": "light", "action": "turn_off" },
+  "thumbs_up": { "device": "light", "action": "brightness_up" },
+  "thumbs_down": { "device": "light", "action": "brightness_down" },
+
+  "peace_sign": { "device": "door", "action": "open" },
+  "crossed_fingers": { "device": "door", "action": "close" },
+  "pinch": { "device": "door", "action": "lock" },
+  "four_fingers": { "device": "door", "action": "unlock" },
+
+  "l_sign": { "device": "tv", "action": "turn_on" },
+  "middle_finger": { "device": "tv", "action": "turn_off" },
+  "three_fingers": { "device": "tv", "action": "open_netflix" },
+  "call_me_sign": { "device": "tv", "action": "open_youtube" },
+  "spiderman_sign": { "device": "tv", "action": "open_disney" },
+
+  "rock_sign": { "device": "speaker", "action": "turn_on" },
+  "ok_sign": { "device": "speaker", "action": "turn_off" },
+  "index_point_right": { "device": "speaker", "action": "play" },
+  "index_point_left": { "device": "speaker", "action": "pause" },
+  "raised_index": { "device": "speaker", "action": "volume_up" },
+  "raised_pinky": { "device": "speaker", "action": "volume_down" }
+}

@@ -1,0 +1,23 @@
+{
+  "light": {
+    "on": false,
+    "brightness": 70
+  },
+  "door": {
+    "open": false,
+    "locked": false
+  },
+  "tv": {
+    "on": false,
+    "volume": 40,
+    "channel": 1,
+    "app": "home"
+  },
+  "speaker": {
+    "on": false,
+    "playing": false,
+    "volume": 50,
+    "track": "Demo Music",
+    "app": "spotify"
+  }
+}

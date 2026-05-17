@@ -1,0 +1,73 @@
+{
+  "turn on light": { "device": "light", "action": "turn_on" },
+  "light on": { "device": "light", "action": "turn_on" },
+  "turn off light": { "device": "light", "action": "turn_off" },
+  "light off": { "device": "light", "action": "turn_off" },
+  "open disco light": { "device": "light", "action": "open_disco" },
+
+  "open door": { "device": "door", "action": "open" },
+  "close door": { "device": "door", "action": "close" },
+  "lock door": { "device": "door", "action": "lock" },
+  "unlock door": { "device": "door", "action": "unlock" },
+
+  "turn on tv": { "device": "tv", "action": "turn_on" },
+  "tv on": { "device": "tv", "action": "turn_on" },
+  "turn off tv": { "device": "tv", "action": "turn_off" },
+  "tv off": { "device": "tv", "action": "turn_off" },
+
+  "open youtube": { "device": "tv", "action": "open_youtube" },
+  "play youtube": { "device": "tv", "action": "open_youtube" },
+  "open netflix": { "device": "tv", "action": "open_netflix" },
+  "play netflix": { "device": "tv", "action": "open_netflix" },
+  "open disney": { "device": "tv", "action": "open_disney" },
+  "open disney plus": { "device": "tv", "action": "open_disney" },
+  "play disney plus": { "device": "tv", "action": "open_disney" },
+  "go home tv": { "device": "tv", "action": "go_home" },
+
+  "play music": { "device": "speaker", "action": "play" },
+  "pause music": { "device": "speaker", "action": "pause" },
+  "stop music": { "device": "speaker", "action": "pause" },
+
+  "open spotify": { "device": "speaker", "action": "open_spotify" },
+  "play spotify": { "device": "speaker", "action": "open_spotify" },
+
+  "play bruno mars song": {
+    "device": "speaker",
+    "action": "play_artist",
+    "artist": "Bruno Mars",
+    "src": "/audio/Bruno_Mars.mp3"
+  },
+
+  "play ariana grande song": {
+    "device": "speaker",
+    "action": "play_artist",
+    "artist": "Ariana Grande",
+    "src": "/audio/Ariana_Grande.mp3"
+  },
+
+  "play chris brown song": {
+    "device": "speaker",
+    "action": "play_artist",
+    "artist": "Chris Brown",
+    "src": "/audio/Chris_Brown.mp3"
+  },
+
+  "play justin bieber song": {
+    "device": "speaker",
+    "action": "play_artist",
+    "artist": "Justin Bieber",
+    "src": "/audio/Justin_Bieber.mp3"
+  },
+
+  "play the weeknd song": {
+    "device": "speaker",
+    "action": "play_artist",
+    "artist": "The Weeknd",
+    "src": "/audio/The_Weeknd.mp3"
+  },
+
+  "volume up": { "device": "speaker", "action": "volume_up" },
+  "volume down": { "device": "speaker", "action": "volume_down" },
+  "tv volume up": { "device": "tv", "action": "volume_up" },
+  "tv volume down": { "device": "tv", "action": "volume_down" }
+}

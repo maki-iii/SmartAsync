@@ -137,7 +137,7 @@ export default function HomeEmulator() {
   async function fetchState() {
     try {
       const res = await fetch(
-        `http://localhost:3000/api/state?sessionId=${getSessionId()}`
+        `https://smartasync.onrender.com/api/state?sessionId=${getSessionId()}`
       );
 
       const data = await res.json();
@@ -152,7 +152,7 @@ export default function HomeEmulator() {
 
   async function sendCommand(device, action, value = null) {
     try {
-      const res = await fetch("http://localhost:3000/api/command", {
+      const res = await fetch("https://smartasync.onrender.com/api/command", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -179,7 +179,7 @@ export default function HomeEmulator() {
 
   async function sendVoiceCommand(text) {
     try {
-      const res = await fetch("http://localhost:3000/api/voice-command", {
+      const res = await fetch("https://smartasync.onrender.com/api/voice-command", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

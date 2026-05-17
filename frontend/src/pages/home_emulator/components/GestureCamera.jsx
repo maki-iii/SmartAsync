@@ -164,7 +164,7 @@ export default function GestureCamera() {
     lastSentTimeRef.current = now;
 
     try {
-      const res = await fetch("http://localhost:3000/api/gesture", {
+      const res = await fetch("https://smartasync.onrender.com/api/gesture", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
